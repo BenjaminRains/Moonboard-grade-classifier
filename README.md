@@ -1,6 +1,8 @@
 # README for Moonboard Climbing Difficulty Classification Project
  ## Project Overview
  The purpose of this machine learning project is to grade bouldering difficulties on the Moonboard, a standardised training wall that climbers utilise all around the world, objectively. Traditional climbing difficulty grading is subjective, which affects training and fair competition. The objective of the research is to create a grading system that is standardised and reproducible by using a classification model that is trained on large amounts of Moonboard data.
+ ## Best Performing Model: XGBoost Final
+ The XGBoost Final notebook represents the culmination of my exhaustive search for the most effective machine learning model for grading bouldering problems. It is the product of extensive experimentation and iteration across various models available in the Development Notebooks folder. This model stands out due to its robust performance against the dataset, comprehensive feature utilization, and advanced tuning techniques that include grid search optimization and Borderline SMOTE for handling class imbalances.
  ## Data Collection
  The dataset comprises climb sequences and hold coordinates from the Moonboard enhanced by adding grip orientation and hold type. The grip orientation is based on official Moonboard specifications, while hold type is determined by consensus among experienced climbers.
  ## Development Process

@@ -1,0 +1,7 @@
+GBM Final: This notebook is a culmination of multiple iterations for the gradient boosting machine (GBM) model, incorporating all features found effective in previous notebooks. The features used come from different iterations of feature engineering that can be seen in the development notebooks.
+
+SVM Final: A final effort tuning and testing the support vector machine model, a advanced stage of model optimization after multiple rounds of refinement and containing no other models.
+
+XGBoost Final: The final version of the XGBoost model, the best model found. The model has been manually tuned using insights found in development models explained in the documentation to identify the best parameters, using borderline smote sampling to handle class imbalance. the notebook includes the performance metrics of the best performing model and a confusion matrix to visually represent its performance on the classes used.
+
+XGBoost Adjusted groups: Describes a copy of the best performing model XGBoost final applied to data split into adjusted class groups testing its performance predicting and distinguishing grade classes in further detail.

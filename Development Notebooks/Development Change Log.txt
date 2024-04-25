@@ -1,0 +1,21 @@
+XGBoost1.1.ipynb: lays the groundwork for the development of XGBoost models by loading starting data, performing preprocessing, and putting a baseline model into action, without advanced tuning or complex feature engineering.
+
+XGBoost2.0.ipynb: improves on the original XGBoost model by adding more data preprocessing, and error correction, but runs into a problem that prevents it from going much farther.
+
+XGBoost2.1 Fixed errors, addition of new models.ipynb: Resolves the issues identified in the previous notebook and integrates new models for comparative analysis, although it does not run due to remaining issues.
+
+Attempt 3 Corrects problems from the previous version and adds comparative visualisations for assessing model performances, implying a continual improvement and analytical approach.
+
+Attempt 3.1 Enhances visuals to facilitate understanding of the model, tests model stability in a range of random states, and weighs feature significance to identify the key factors.
+
+Attempt 3.2 uses a correlation matrix and new features to look at the links between variables. Recursive Feature Elimination (RFE) is attempted, however it is unsuccessful.
+
+Attempt 3.3 effectively uses the XGBoost model to apply Principal Component Analysis (PCA) and RFE, demonstrating advancements in feature selection and dimensionality reduction.
+
+Attempt 3.4 reorders the RFE application sequence and keeps fine-tuning the XGBoost model in an effort to reduce overfitting and enhance model performance.
+
+Attempt 3.5 restricts the dataset to 1000 datapoints in order to enable computational management and targeted model comparison, and extends the analysis to include Random Forest, SVM, and GBM models.
+
+Attempt 4.0 'Hold presence features' are eliminated from the training and test sets in favour of utilising the entire dataset without any prior filtering in order to assess their direct effect on the predicted accuracy of the model.
+
+Attempt 4.1 demonstrates a thorough parameter optimisation process by including new features and data in the study, applying filtering for improved model input, and carrying out a full grid search optimisation on XGBoost and GBM using the full dataset.
